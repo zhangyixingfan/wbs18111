@@ -81,7 +81,7 @@ git rm --cache -r src                                // 移除一个目录（包
     当前仓库如果指定个人信息，就用个人的
     git config user.name "tom"
     git config user.email "tom@123.com"
-
+----
 提交到仓库
 git commit Readme.txt
 git commit hello.txt haha.log -m "add hello.txt and haha.log files"
