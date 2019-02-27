@@ -40,7 +40,7 @@ git help -a
 
 查看具体命令的详细帮助
 git help commit
-git commit --help
+git cmmmit --help
 git commit -h       只显示参数列表和简单说明
 
 把一个目录（项目所在文件夹）创建为仓库
@@ -61,8 +61,6 @@ git add Readme.txt index.htm *.js src/
 git add .
 git add --all
 git add -A
-
-
 
 移除不希望被暂存的内容（移至工作区，之后不会被提交，因为只有被暂存区管理的内容才会被提交到仓库区）
 git rm --cached Git-2.18.0-64-bit.exe hello.txt      // 移除一个或多个文件
